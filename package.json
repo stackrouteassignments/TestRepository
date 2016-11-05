@@ -1,0 +1,14 @@
+{
+  "name": "jsassignment",
+  "version": "1.0.0",
+  "description": "JavaScript Assignment",
+  "main": "js/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node node_modules/gulp/bin/gulp.js evaluate"
+  },
+  "author": "",
+  "license": "ISC"
+}

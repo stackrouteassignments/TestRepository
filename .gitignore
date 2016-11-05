@@ -1,0 +1,7 @@
+/node_modules
+/evaluation
+/output
+.eslintrc.js
+.htmllintrc
+gulpFile.js
+Jenkinsfile
