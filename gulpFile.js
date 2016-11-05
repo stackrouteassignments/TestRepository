@@ -17,3 +17,7 @@ gulp.task('htmlhint', function() {
   .pipe(htmlhint({htmlhintrc: ".htmlhintrc"}))
   .pipe(htmlhint.failReporter());
 });
+
+gulp.task('test', function() {
+
+});
