@@ -7,7 +7,9 @@
     "test": "test"
   },
   "scripts": {
-    "test": "node node_modules/gulp/bin/gulp.js evaluate"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "node node_modules/gulp/bin/gulp.js test",
+    "lint": "node node_modules/gulp/bin/gulp.js lint"
   },
   "author": "",
   "license": "ISC",
