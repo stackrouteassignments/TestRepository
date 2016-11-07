@@ -5,3 +5,5 @@
 .htmlhintrc
 gulpFile.js
 Jenkinsfile
+npm-debug.log
+htmlhint-output.html
