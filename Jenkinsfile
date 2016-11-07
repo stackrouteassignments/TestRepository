@@ -3,7 +3,7 @@ node {
   sh "env"
 
   stage 'Checkout Repository'
-  git url: '<PROVIDE YOUR REPO NAME HERE>', branch: "${env.BRANCH_NAME}"
+  git url: 'https://github.com/stackrouteassignments/TestRepository.git', branch: "${env.BRANCH_NAME}"
 
   stage 'Installing Dependencies'
   sh "npm prune"
